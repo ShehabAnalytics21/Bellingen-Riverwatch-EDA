@@ -28,16 +28,26 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project:
-*	The Human Development Index (HDI) is an index that ranks nations into four levels of human development based on statistics related to life expectancy, education levels, and per capita income.
-*	In this report, the relationship between the different components of HDI will be studied and analysed, specifically, two main questions of interest are to be addressed in this report, the two questions are: 
-  1.	Is there a relationship between the Mean Years of Schooling and the Gross National Income per capita?
-  2.	How much difference is there in the expected years of schooling between different countries of different HDI rankings?
+*	Bellingen Riverwatch government initiative aims to create a safe environment for the Bellinger River Snapping Turtle by collaborating with the local community and by spreading awareness of the importance of this endeavour. 
+*	The data collected are provided in the “bellingen-riverwatch-ongoing-data_last-updated-20210812_ig.xlsx” file in the “riverwatch data” folder. 
+*	The name of the sites along with their exact location is provided in the “bellingenriverwatch_sites.csv” file in the “rvierwatch data” folder. 
+*	The volunteer manual and Data Quality Analysis (DQS) are also provided in the “rvierwatch data” folder to provide more information about the methodology and settings of the initiative.
+*	The main report is provided as Jupyter Notebook in the file named “Bellingen Riverwatch EDA.ipynb”.
+
+* In this report, an in-depth EDA was conducted to answer the following questions: 
+  1.	What is the general relationship between all numerical variables?
+  2.	Does the BR water quality meet the ANZECC Freshwater Quality Guidelines & Ratings?
+  3.	How does the water quality of BR change annually?
+  4.	How does the water quality of BR change every summer?
+  5.	What is the relationship between "Water level or flow" and water quality?
+  6.	What is the relationship between "Rainfall in last 7 days" and water quality?
+
 
 [![Product Name Screen
 Shot][product-screenshot]](https://example.com)
 
 ### Built With:
-This report was built using RStudio and the extracted data comes from a CSV file.
+This report was built using Python language through Jupyter Notebook and the extracted data comes from a CSV file.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -46,23 +56,21 @@ This report was built using RStudio and the extracted data comes from a CSV file
 
 ### Installation:
 To get the report up and running, please follow these simple steps:
-1.	First, fork the project to your own repository.
-2.	Open the Rmd code. 
+1. 	First, fork the project to your repository.
+2.	Open the Rmd file named “Bellingen Riverwatch EDA.ipynb”. 
 
-To view the report in an Html format, please follow the instructions:
-1.	First, fork the project to your own repository.
-2.	Download the excel file provided in the directory. 
-3.	Download the “Data Analysis of HDI.Rmd” file into the same folder where the Excel file was saved. 
-4.  Use RStudio to run the file.
-5.  Knit the file to an Html format using the Knit button.
-6.  Open the Html file in a web browser such as Chrome or Safari.   
+To view the excel sheet that contains the data, please follow the instructions:
+1.	First, fork the project to your repository.
+2.	Download the excel file named “bellingen-riverwatch-ongoing-data_last-updated-20210812_ig.xlsx “provided in the “.riverwatch data” folder 
+3.	Open the file using excel or other applicable programs. 
+ 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage:
-The HDI (Human Development Index) analysis presented in this report could be useful to a vast segment of society, including individuals involved in charities, hospitals, governments, insurance firms, etc. The trends that the statistics provide are very important to the stakeholders because they give them important information that, depending on their level of involvement, can be used as a method of improvement in many areas. 
+The main users of this data would be individuals from the scientific community that are interested in assessing the health of rivers and estuaries specifically in Australia. Additionally, the government and the local council can also use this data to track the change in water quality annually and every summer. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
