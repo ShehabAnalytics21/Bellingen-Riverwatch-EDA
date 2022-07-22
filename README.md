@@ -62,7 +62,7 @@ To get the report up and running, please follow these simple steps:
 To view the excel sheet that contains the data, please follow the instructions:
 1.	First, fork the project to your repository.
 2.	Download the excel file named “bellingen-riverwatch-ongoing-data_last-updated-20210812_ig.xlsx “provided in the “.riverwatch data” folder.
-3.	Open the file using excel or other applicable programs. 
+3.	Open the file using excel or another applicable program. . 
  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
